@@ -1,0 +1,56 @@
+.phone {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px; }
+  .phone i {
+    margin-right: 15px;
+    color: #cc7722; }
+
+.top-nav {
+  margin-top: 12px; }
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: black !important; }
+  .nav-link .active {
+    color: #cc7722 !important; }
+
+.header {
+  background: url("../img/header.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 100px; }
+  .header-text h3 {
+    font-size: 50px;
+    font-weight: 300; }
+  .header-text h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+
+.learn-more-btn {
+  width: 15%;
+  background: #cc7722;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px; }
+
+.outline-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  background: white;
+  border: 2px solid grey;
+  padding: 10px; }
