@@ -11,3 +11,19 @@
   border: 2px solid grey;
   padding: 10px;
 }
+
+// Three column layout
+.fas {
+  color: #cc7722;
+}
+.card-text-threecols {
+  span {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    font-weight: 600;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+}
