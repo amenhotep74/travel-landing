@@ -27,3 +27,31 @@
     font-weight: 200;
   }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .tour-btn {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .tour-btn {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .tour-btn {
+    display: block;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .tour-btn {
+    display: block;
+  }
+}
