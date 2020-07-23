@@ -9,6 +9,17 @@
 .top-nav {
   margin-top: 12px; }
 
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.topbar-phone {
+  display: flex;
+  align-items: center; }
+  .topbar-phone i {
+    margin-right: 15px; }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -45,3 +56,33 @@
   font-weight: 600;
   border-radius: 5px;
   padding: 10px 0px 10px 0px; }
+
+@media (min-width: 576px) {
+  .tour-btn {
+    display: none; }
+  .dropdown {
+    display: block; }
+  .topbar-phone {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .tour-btn {
+    display: none; }
+  .dropdown {
+    display: block; }
+  .topbar-phone {
+    display: none; } }
+
+@media (min-width: 992px) {
+  .tour-btn {
+    display: block; }
+  .dropdown {
+    display: none; }
+  .topbar-phone {
+    display: inline-flex; } }
+
+@media (min-width: 1200px) {
+  .tour-btn {
+    display: block; }
+  .dropdown {
+    display: none; } }

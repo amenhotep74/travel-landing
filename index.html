@@ -19,55 +19,55 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
     <title>Home</title>
   </head>
   <body>
-    <div class="container top-nav">
-      <div class="row">
-        <div class="col-3">
-          <img
-            src="./img/travel-logo.png"
-            alt="logo"
-            class="img-fluid"
-            width="180"
-          />
-        </div>
-        <div class="col-3">
-          <div class="d-flex justify-content-center align-items-center phone">
-            <i class="fas fa-2x fa-phone"></i>
-            <div class="d-flex flex-column">
-              <div>
-                1300 975 707
-              </div>
-              <div>
-                0491 570 156
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container top-nav">
+        <div class="row">
+          <div class="col-3">
+            <img
+              src="./img/travel-logo.png"
+              alt="logo"
+              class="img-fluid"
+              width="180"
+            />
+          </div>
+          <div class="col-3">
+            <div class="d-flex justify-content-center align-items-center phone">
+              <i class="fas fa-2x fa-phone"></i>
+              <div class="d-flex flex-column">
+                <div>
+                  1300 975 707
+                </div>
+                <div>
+                  0491 570 156
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-3">
-          <div class="d-flex justify-content-center align-items-center phone">
-            <i class="fas fa-2x fa-map-marker-alt"></i>
-            <div class="d-flex flex-column">
-              <div>
-                1702 Selah Way, Vermont
-              </div>
-              <div>
-                1535 Robinson Lane, Ohio
+          <div class="col-3">
+            <div class="d-flex justify-content-center align-items-center phone">
+              <i class="fas fa-2x fa-map-marker-alt"></i>
+              <div class="d-flex flex-column">
+                <div>
+                  1702 Selah Way, Vermont
+                </div>
+                <div>
+                  1535 Robinson Lane, Ohio
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-3 tour-btn">
-          <button class="outline-btn">FIND YOUR TOUR</button>
+          <div class="col-3 tour-btn">
+            <button class="outline-btn">FIND YOUR TOUR</button>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -97,8 +97,64 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
+    <div class="topbar container">
+      <img
+        src="./img/travel-logo.png"
+        alt="logo"
+        class="img-fluid"
+        width="200"
+      />
+      <div class="topbar-phone">
+        <i class="fas fa-2x fa-phone"></i>
+        <div class="d-flex flex-column">
+          <div>1300 975 707</div>
+          <div>0491 570 156</div>
+        </div>
+      </div>
+      <div class="topbar-phone">
+        <i class="fas fa-2x fa-map-marker-alt"></i>
+        <div class="d-flex flex-column">
+          <div>1702 Selah Way, Vermont</div>
+          <div>1535 Robinson Lane, Ohio</div>
+        </div>
+      </div>
+
+      <div class="tour-btn">
+        <button class="outline-btn">FIND YOUR TOUR</button>
+      </div>
+
+      <div class="dropdown">
+        <i
+          class="fas fa-ellipsis-v dropdown"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        ></i>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <div class="topbar-phone dropdown-item">
+            <i class="fas fa-lg fa-phone"></i>
+            <div class="d-flex flex-column">
+              <div>1300 975 707</div>
+              <div>0491 570 156</div>
+            </div>
+          </div>
+          <div class="topbar-phone dropdown-item">
+            <i class="fas fa-lg fa-map-marker-alt"></i>
+            <div class="d-flex flex-column">
+              <div>1702 Selah Way, Vermont</div>
+              <div>1535 Robinson Lane, Ohio</div>
+            </div>
+          </div>
+          <div class="tour-btn dropdown-item">
+            <button class="outline-btn">FIND YOUR TOUR</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Header -->
     <div class="header">
       <div class="header-text">

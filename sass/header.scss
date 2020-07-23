@@ -11,6 +11,21 @@
   margin-top: 12px;
 }
 
+// Top Navbar
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.topbar-phone {
+  display: flex;
+  align-items: center;
+  i {
+    margin-right: 15px;
+  }
+}
+
 // Main Nav
 .nav-link {
   font-family: 'Montserrat', sans-serif;
@@ -56,4 +71,53 @@
   font-weight: 600;
   border-radius: 5px;
   padding: 10px 0px 10px 0px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .tour-btn {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .topbar-phone {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .tour-btn {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .topbar-phone {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .tour-btn {
+    display: block;
+  }
+  .dropdown {
+    display: none;
+  }
+  .topbar-phone {
+    display: inline-flex;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .tour-btn {
+    display: block;
+  }
+  .dropdown {
+    display: none;
+  }
 }
