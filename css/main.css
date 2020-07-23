@@ -13,6 +13,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center; }
+  .topbar img {
+    padding-top: 12px; }
 
 .topbar-phone {
   display: flex;
@@ -22,7 +24,7 @@
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   color: black !important; }
   .nav-link .active {
@@ -57,13 +59,112 @@
   border-radius: 5px;
   padding: 10px 0px 10px 0px; }
 
+.fa-ellipsis-v {
+  color: black; }
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+.sidebar a:hover {
+  color: #f1f1f1; }
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: none; }
+
+.openbtn:hover {
+  background-color: grey; }
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px; }
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px; }
+
+.navlink {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px; }
+  .sidebar a {
+    font-size: 18px; } }
+
+@media (min-width: 0px) {
+  .tour-btn {
+    display: none; }
+  .dropdown {
+    display: block; }
+  .topbar-phone {
+    display: none; }
+  .main-menu {
+    display: none; }
+  .menu {
+    display: flex; }
+  .learn-more-btn {
+    width: 100%;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px; } }
+
 @media (min-width: 576px) {
   .tour-btn {
     display: none; }
   .dropdown {
     display: block; }
   .topbar-phone {
-    display: none; } }
+    display: none; }
+  .main-menu {
+    display: none; }
+  .menu {
+    display: flex; }
+  .learn-more-btn {
+    width: 70%;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px; } }
 
 @media (min-width: 768px) {
   .tour-btn {
@@ -71,7 +172,20 @@
   .dropdown {
     display: block; }
   .topbar-phone {
-    display: none; } }
+    display: none; }
+  .main-menu {
+    display: none; }
+  .menu {
+    display: flex !important; }
+  .learn-more-btn {
+    width: 40%;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px; } }
 
 @media (min-width: 992px) {
   .tour-btn {
@@ -79,13 +193,39 @@
   .dropdown {
     display: none; }
   .topbar-phone {
-    display: inline-flex; } }
+    display: inline-flex; }
+  .main {
+    display: flex; }
+  .menu {
+    display: none !important; }
+  .learn-more-btn {
+    width: 25%;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px; } }
 
 @media (min-width: 1200px) {
   .tour-btn {
     display: block; }
   .dropdown {
-    display: none; } }
+    display: none; }
+  .main-menu {
+    display: flex; }
+  .menu {
+    display: none !important; }
+  .learn-more-btn {
+    width: 15%;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px; } }
 
 .outline-btn {
   font-family: 'Montserrat', sans-serif;

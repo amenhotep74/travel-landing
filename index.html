@@ -23,83 +23,20 @@
     <title>Home</title>
   </head>
   <body>
+    <!-- Pop out sidemenu -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Tours</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </div>
     <!-- Navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container top-nav">
-        <div class="row">
-          <div class="col-3">
-            <img
-              src="./img/travel-logo.png"
-              alt="logo"
-              class="img-fluid"
-              width="180"
-            />
-          </div>
-          <div class="col-3">
-            <div class="d-flex justify-content-center align-items-center phone">
-              <i class="fas fa-2x fa-phone"></i>
-              <div class="d-flex flex-column">
-                <div>
-                  1300 975 707
-                </div>
-                <div>
-                  0491 570 156
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-3">
-            <div class="d-flex justify-content-center align-items-center phone">
-              <i class="fas fa-2x fa-map-marker-alt"></i>
-              <div class="d-flex flex-column">
-                <div>
-                  1702 Selah Way, Vermont
-                </div>
-                <div>
-                  1535 Robinson Lane, Ohio
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-3 tour-btn">
-            <button class="outline-btn">FIND YOUR TOUR</button>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar10"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbar10">
-          <ul class="navbar-nav nav-fill w-100">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="//codeply.com">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tours</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
     <div class="topbar container">
+      <div id="main menu" class="menu">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
       <img
         src="./img/travel-logo.png"
         alt="logo"
@@ -125,7 +62,7 @@
         <button class="outline-btn">FIND YOUR TOUR</button>
       </div>
 
-      <div class="dropdown">
+      <div class="dropdown dropleft">
         <i
           class="fas fa-ellipsis-v dropdown"
           type="button"
@@ -154,6 +91,14 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container main-menu">
+      <a href="" class="navlink">Home</a>
+      <a href="" class="navlink">Features</a>
+      <a href="" class="navlink">Tours</a>
+      <a href="" class="navlink">Blog</a>
+      <a href="" class="navlink">Contact</a>
     </div>
     <!-- Header -->
     <div class="header">
@@ -207,6 +152,18 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function openNav() {
+        document.getElementById('mySidebar').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+      }
+
+      function closeNav() {
+        document.getElementById('mySidebar').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+      }
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
