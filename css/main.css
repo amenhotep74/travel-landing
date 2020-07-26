@@ -250,19 +250,27 @@
 
 @media (min-width: 576px) {
   .tour-btn {
-    display: none; } }
+    display: none; }
+  .testimonial-card {
+    margin-top: 30px !important; } }
 
 @media (min-width: 768px) {
   .tour-btn {
-    display: none; } }
+    display: none; }
+  .testimonial-card {
+    margin-top: 30px !important; } }
 
 @media (min-width: 992px) {
   .tour-btn {
-    display: block; } }
+    display: block; }
+  .testimonial-card {
+    margin-top: 5px !important; } }
 
 @media (min-width: 1200px) {
   .tour-btn {
-    display: block; } }
+    display: block; }
+  .testimonial-card {
+    margin-top: 5px !important; } }
 
 .tours h3 {
   font-family: 'Montserrat', sans-serif;
@@ -289,3 +297,63 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 22px; }
+
+.tour-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  background: white;
+  border: 2px solid grey;
+  width: 18%;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+.tour-breaker {
+  background: url("../img/banner-water.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .tour-breaker p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22px;
+    padding: 0;
+    margin: 0; }
+  .tour-breaker span {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0;
+    margin: 0; }
+  .tour-breaker button {
+    padding: 0;
+    margin: 0;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; }
+
+.tour-breaker {
+  margin-top: 30px !important; }
+
+.booknow-btn {
+  margin-left: 20px !important;
+  padding: 10px 30px 10px 30px !important; }
+
+.testimonial-card h3 {
+  margin-top: 10px !important; }
+
+.testimonial-card p {
+  margin-top: 5px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
