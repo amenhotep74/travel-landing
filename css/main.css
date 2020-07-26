@@ -357,3 +357,85 @@
   margin-top: 5px !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
+
+.sale-banner {
+  background: url("../img/person-holding-flashlight-in-road-2011367.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  color: white; }
+  .sale-banner .booknow-btn {
+    margin-left: 20px !important;
+    padding: 10px 30px 10px 30px !important;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; }
+  .sale-banner p {
+    font-weight: 200;
+    font-size: 40px;
+    padding: 0;
+    margin: 0; }
+  .sale-banner h4 {
+    font-weight: 500;
+    font-size: 45px; }
+  .sale-banner span {
+    font-weight: 200;
+    font-size: 25px; }
+
+.blog-title {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 25px; }
+
+.blog-post {
+  font-family: 'Montserrat', sans-serif; }
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px; }
+  .blog-post .blog-info-category {
+    color: #cc7722; }
+  .blog-post p {
+    font-size: 14px;
+    margin-top: 12px; }
+
+@media (min-width: 0px) {
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px; } }
+
+@media (min-width: 576px) {
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px; } }
+
+@media (min-width: 768px) {
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 15px; } }
+
+@media (min-width: 992px) {
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px; } }
+
+@media (min-width: 1200px) {
+  .blog-post h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px; } }

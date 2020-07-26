@@ -168,3 +168,120 @@
     font-weight: 400;
   }
 }
+
+.sale-banner {
+  background: url('../img/person-holding-flashlight-in-road-2011367.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  .booknow-btn {
+    margin-left: 20px !important;
+    padding: 10px 30px 10px 30px !important;
+    background: #cc7722;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  p {
+    font-weight: 200;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 45px;
+  }
+  span {
+    font-weight: 200;
+    font-size: 25px;
+  }
+}
+
+.blog-title {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.blog-post {
+  font-family: 'Montserrat', sans-serif;
+  h3 {
+    color: #cc7722;
+    font-size: 25px;
+    width: 100%;
+    line-height: 55px;
+  }
+  .blog-info-category {
+    color: #cc7722;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+}
+
+// Extra small
+@media (min-width: 0px) {
+  .blog-post {
+    h3 {
+      color: #cc7722;
+      font-size: 25px;
+      width: 100%;
+      line-height: 55px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .blog-post {
+    h3 {
+      color: #cc7722;
+      font-size: 25px;
+      width: 100%;
+      line-height: 55px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .blog-post {
+    h3 {
+      color: #cc7722;
+      font-size: 25px;
+      width: 100%;
+      line-height: 30px;
+      margin-top: 15px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .blog-post {
+    h3 {
+      color: #cc7722;
+      font-size: 25px;
+      width: 100%;
+      line-height: 55px;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .blog-post {
+    h3 {
+      color: #cc7722;
+      font-size: 25px;
+      width: 100%;
+      line-height: 55px;
+    }
+  }
+}
