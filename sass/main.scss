@@ -9,7 +9,7 @@
   color: black;
   background: white;
   border: 2px solid grey;
-  padding: 10px;
+  padding: 10px 25px 10px 25px;
 }
 
 // Three column layout
@@ -175,8 +175,7 @@
   background-size: cover;
   height: 350px;
   color: white;
-  .booknow-btn {
-    margin-left: 20px !important;
+  .booknow-btn2 {
     padding: 10px 30px 10px 30px !important;
     background: #cc7722;
     color: white;
@@ -252,12 +251,15 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .blog-post {
+    span {
+      font-size: 12px;
+    }
     h3 {
       color: #cc7722;
       font-size: 25px;
       width: 100%;
       line-height: 30px;
-      margin-top: 15px;
+      margin-top: 5px;
     }
   }
 }
@@ -265,6 +267,9 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .blog-post {
+    span {
+      font-size: 16px;
+    }
     h3 {
       color: #cc7722;
       font-size: 25px;
@@ -284,4 +289,26 @@
       line-height: 55px;
     }
   }
+}
+
+.footer {
+  background: #122e44;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  p {
+    font-weight: 300;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  span {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.copyright {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.5;
 }

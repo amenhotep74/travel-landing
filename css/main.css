@@ -234,7 +234,7 @@
   color: black;
   background: white;
   border: 2px solid grey;
-  padding: 10px; }
+  padding: 10px 25px 10px 25px; }
 
 .fas {
   color: #cc7722; }
@@ -364,8 +364,7 @@
   background-size: cover;
   height: 350px;
   color: white; }
-  .sale-banner .booknow-btn {
-    margin-left: 20px !important;
+  .sale-banner .booknow-btn2 {
     padding: 10px 30px 10px 30px !important;
     background: #cc7722;
     color: white;
@@ -419,14 +418,18 @@
     line-height: 55px; } }
 
 @media (min-width: 768px) {
+  .blog-post span {
+    font-size: 12px; }
   .blog-post h3 {
     color: #cc7722;
     font-size: 25px;
     width: 100%;
     line-height: 30px;
-    margin-top: 15px; } }
+    margin-top: 5px; } }
 
 @media (min-width: 992px) {
+  .blog-post span {
+    font-size: 16px; }
   .blog-post h3 {
     color: #cc7722;
     font-size: 25px;
@@ -439,3 +442,20 @@
     font-size: 25px;
     width: 100%;
     line-height: 55px; } }
+
+.footer {
+  background: #122e44;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+  .footer p {
+    font-weight: 300; }
+  .footer h5 {
+    font-size: 20px; }
+  .footer span {
+    font-weight: 300;
+    font-size: 15px; }
+
+.copyright {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.5; }
