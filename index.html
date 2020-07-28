@@ -35,7 +35,7 @@
     </div>
     <!-- Navbar -->
     <div class="topbar container">
-      <div id="main menu" class="menu">
+      <div class="main menu">
         <button class="openbtn" onclick="openNav()">☰</button>
       </div>
       <img
@@ -66,11 +66,11 @@
       <div class="dropdown dropleft">
         <i
           class="fas fa-ellipsis-v dropdown"
-          type="button"
           id="dropdownMenuButton"
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"
+          role="button"
         ></i>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <div class="topbar-phone dropdown-item">
@@ -103,7 +103,7 @@
     </div>
     <!-- Header -->
     <div class="header">
-      <div class="header-text container" data-aos='fade-left'>
+      <div class="header-text container" data-aos="fade-left">
         <h3>Unique Travel</h3>
         <h2>Insights & Tips</h2>
         <button class="learn-more-btn">Learn More</button>
@@ -162,7 +162,7 @@
         world. We offer top deals at affordable prices.
       </p>
       <div class="row" data-aos="fade-right">
-        <div class="col-md-6 col-lg-3 text-center mb-3" >
+        <div class="col-md-6 col-lg-3 text-center mb-3">
           <img
             src="./img/cardimgs/picture-of-eiffel-tower-338515.png"
             alt="paris"
@@ -269,7 +269,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="text-center testimonial-card">
-            <img src="./img/download (1).png" alt="john" />
+            <img src="./img/download1.png" alt="john" />
             <h3>John Doe</h3>
             <span>Regular Client</span>
             <p>
@@ -281,7 +281,7 @@
 
         <div class="col-md-4">
           <div class="text-center testimonial-card">
-            <img src="./img/download (2).png" alt="kelly" />
+            <img src="./img/download2.png" alt="kelly" />
             <h3>Kelly Web</h3>
             <span>Regular Client</span>
             <p>
@@ -293,7 +293,7 @@
 
         <div class="col-md-4">
           <div class="text-center testimonial-card">
-            <img src="./img/download (3).png" alt="harold" />
+            <img src="./img/download3.png" alt="harold" />
             <h3>Harold Barnett</h3>
             <span>Regular Client</span>
             <p>
@@ -326,6 +326,7 @@
           <img
             src="./img/blue-sea-under-blue-sky-2783619.png"
             class="img-fluid"
+            alt="sea-banner"
           />
           <h3>Tips For Touring Greek Islands</h3>
           <div class="blog-info d-flex justify-content-between">
@@ -343,6 +344,7 @@
           <img
             src="./img/man-and-woman-hugging-and-sitting-on-a-bench-698882.png"
             class="img-fluid"
+            alt="scenic bench sitting"
           />
           <h3>Travelling With A Loved One</h3>
           <div class="blog-info d-flex justify-content-between">
@@ -396,11 +398,13 @@
         </div>
       </div>
 
-      <hr>
-      <div class="text-right ">
-        <span class="copyright">2020 All Rights Reserved. Terms of Use and Privacy Policy</span>
+      <hr />
+      <div class="text-right">
+        <span class="copyright"
+          >2020 All Rights Reserved. Terms of Use and Privacy Policy</span
+        >
       </div>
-      
+    </div>
 
     <script>
       function openNav() {
@@ -414,10 +418,10 @@
       }
     </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
